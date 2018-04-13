@@ -1,0 +1,96 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 80px;
+}
+
+.App-header {
+  background-color: #222;
+  height: 150px;
+  padding: 20px;
+  color: white;
+}
+
+.App-title {
+  font-size: 1.5em;
+}
+
+.App-intro {
+  font-size: large;
+}
+
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+
+.navbar{
+  box-sizing: border-box;
+  display:flex;
+}
+.navbar{
+  justify-content: space-between;
+}
+.nav-item:nth-child(1){
+ padding-right: 10px;
+ padding-left:10px;
+}
+.card-text{
+  color: skyblue;
+}
+.logo{
+  font-size: 28px;
+  text-transform: lowercase;
+}
+.navMenu{
+  font-size: 20px;
+}
+.nav-item:nth-child(2){
+  padding-right: 10px;
+  padding-left:10px;
+  
+ }
+ .nav-item:nth-child(3){
+  padding-right: 10px;
+  padding-left:10px;
+ }
+
+.container-fluid{
+  background:#102E4A;
+}
+ /*sticky footer*/
+ html {
+  min-height: 100%;
+  position: relative;
+ }
+  body {
+    margin-bottom: 60px;
+  }
+  .footer-copyright{
+    bottom: 0;
+    width: 100%;
+    position: absolute;
+    height: 60px;
+    background-color:#102E4A;
+  }
+    .footer-block {
+      margin-bottom: 10px;
+      font-size: 20px;
+    }
+
+  
+
+ .modal-dialog{
+   position:fixed;
+   top:20%;
+   left:37%
+ }
+
+  /*modal inputs*/
+.no-border{
+  border: none;
+  box-shadow: none; 
+}

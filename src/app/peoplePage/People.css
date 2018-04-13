@@ -1,0 +1,26 @@
+body{
+    box-sizing: border-box
+}
+
+.nav-search{
+   
+    margin-top:10px;
+}
+.card {
+    margin-top:10px;
+}
+.card-img-top {
+    width:150px;
+    padding:5px;
+}
+.people {
+    color:black;
+    font-size:22px;
+}
+.people {
+    color:black;
+    font-size:18px;
+}
+.profileImg{
+    width:300px;
+}
